@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Image Gallery | COMP1073 Client-Side JavaScript</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src="https://kit.fontawesome.com/3aed1e3974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<h1>Image Gallery</h1>
+	<section id="gallery">
+		<!-- Main Image -->
+		<div class="main-img">
+			<!-- Left Button -->
+			<div id="backwardButton">
+				<div class="fa-solid fa-backward font-awesome"></div>
+			</div>
+
+			<!-- Figure -->
+			<figure>
+				<div class="main-img__container">
+					<img id="main-img__img" src="/images/flowers-pink-large.jpg" alt="" width="1200" height="800">
+					<a class="main-img__button btn" href="" target="_blank">Read more</a>
+				</div>
+				<figcaption>Image title to appear here</figcaption>
+			</figure>
+
+			<!-- Right Button -->
+			<div id="forwardButton">
+				<div class="fa-solid fa-forward font-awesome"></div>
+			</div>
+		</div>
+
+		<!-- Thumbnails -->
+		<div class="thumbnail-bar">
+			<!-- Show Thumbnail bar -->
+			<div id="upButton">
+				<div class="fa-solid fa-xmark font-awesome"></div>
+			</div>
+
+				
+			<ul class="thumbnail-bar__items">
+				<!-- Thumbnail Item -->
+			</ul>
+		</div>
+	</section>
+	<script src="js/gallery.js"></script>
+	<!-- PHOTO CREDITS
+	Sunflowers in the hamlet Dernekamp, Kirchspiel, Dülmen, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=61514522
+
+	Poppies in cornfield, Dülmen, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=40957238
+
+	Daffodils in Sentmaring park, Münster, North Rhine-Westfalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=48211466
+
+	Sentmaring Park, Münster, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=48576226
+
+	Market in Münster, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=62071586
+	-->
+</body>
+</html>
